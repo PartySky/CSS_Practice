@@ -18,7 +18,9 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container nav-wrapper">
-            <!-- <div class="nav_second_button">button</div> -->
+            <div class="nav_second_button">
+                <a href="#"><img src="Images/nav_second_button.png"></a>
+            </div>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -38,6 +40,15 @@
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
+            <div class="nav_show_more">
+                <a href="#"><img src="Images/icon_dots.png"></a>
+            </div>
+        </div>
+        <!-- Slide to home -->
+        <div class="send_a_message">
+            <a href="#">
+                <img src="Images/plus.png">
+            </a>
         </div>
     </div>
     <div class="container" style="top:128px; position:absolute;">
@@ -250,27 +261,29 @@
             <div class="row">
                 <div class="col-lg-4">
                     <h3>Twitter Widget</h3>
+                    <div class="footer_twitter_widget footer_twitter_widget_border">
+                        <div class="footer_twitter_widget_icon"><img src="Images/widget_twitter.png"></div>
+                        <div class="footer_twitter_widget_content">
+                            <p>Mirum est <span>@globals</span> notare quam littera gothica,<br>quam nunc putamus parum, anteposuerit.
+                                <br><span>http://t.co/6621J2WFeAY</span></p>
+                            <p class="footer_twitter_widget_time">6 minutes ago</p>
+                        </div>
+                    </div>
                     <div class="footer_twitter_widget">
                         <div class="footer_twitter_widget_icon"><img src="Images/widget_twitter.png"></div>
                         <div class="footer_twitter_widget_content">
-                            <p>Mirum est <span style="color: #00bff3;">@globals</span> notare quam littera gothica,<br>quam nunc putamus parum, anteposuerit.
-                                <br><span style="color: #00bff3;">http://t.co/6621J2WFeAY</span></p>
-                            <p>6 minutes ago</p>
-                        </div>
-                    </div>
-                    <div style="display: table;">
-                        <div><img src="Images/widget_twitter.png"></div>
-                        <div>
-                            <p>Mirum est @globals notare quam littera gothica, quam nunc putamus parum, anteposuerit. http://t.co/6621J2WFeAY
+                            <p>
+                                <span>@themefire</span> notare quam littera gothica, quam nunc<br>putamus parum, anteposuerit.<br>
+                                <span>http://t.co/87218JHW8H</span>
                             </p>
-                            <p>6 minutes ago</p>
+                            <p class="footer_twitter_widget_time">18 Jun 2015</p>
                         </div>
                     </div>
 
                 </div>
                 <div class="col-lg-4">
                     <h3>Dribble Widget</h3>
-                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur</p>
                     <div><img src="Images/widgets_images.png"></div>
 
 
@@ -278,7 +291,7 @@
                 <div class="col-lg-4">
                     <h3>Email Newsletter</h3>
                     <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
-                    <input>
+                    <input type="email" placeholder="Email Address">
                     <div class="footer_twitter_widget_button">
                         <a href="/">Subscribe Now</a>
                     </div>
@@ -286,9 +299,17 @@
             </div>
         </div>
         <!-- Slide to home -->
-        <div></div>
+        <div class="slide_to_home">
+            <a id="" href="#" role="button" title="Slide to Home" data-toggle="tooltip" data-placement="top">
+                <img src="Images/up.png">
+            </a>
+        </div>
         <!-- Copyright -->
-        <div></div>
+        <div class="copyright">
+            <div>
+                <img src="Images/copyright.png"> © 2015 Design Studio <span>Globals</span> / Designed by <span>ThemeFire</span> / Only for <span>Envato Market</span>
+            </div>
+        </div>
     </div>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
