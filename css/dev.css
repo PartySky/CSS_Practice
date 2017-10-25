@@ -345,11 +345,6 @@ a.right.carousel-control:hover {
 
 a.left.carousel-control span,
 a.right.carousel-control span {
-    top: 44%;
-}
-
-a.left.carousel-control span,
-a.right.carousel-control span {
     position: absolute;
     top: 44%;
     z-index: 5;
