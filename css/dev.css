@@ -477,12 +477,8 @@ a.right.carousel-control span {
         margin-left: 101px;
     }
     .nav-wrapper .navbar-header {
-        /* margin-left: 119px; */
         margin-left: 81px;
     }
-    /* .navbar-header {
-        margin-left: 119px;
-    } */
     .navbar-nav>li>a {
         margin-right: 30px;
     }
@@ -520,7 +516,6 @@ a.right.carousel-control span {
 
 .footer .row {
     max-width: 1206px;
-    /* width: 1206px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -545,7 +540,6 @@ a.right.carousel-control span {
 
 .footer_twitter_widget_content {
     float: left;
-    /* width: 80%; */
 }
 
 .footer h3 {
