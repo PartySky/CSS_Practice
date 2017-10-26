@@ -425,7 +425,6 @@ a.right.carousel-control span {
 }
 
 @media (max-width: 1000px) {
-    /* .navbar-nav a:hover, */
     .navbar-nav li,
     .navbar-nav li:hover {
         background-color: #222629;
